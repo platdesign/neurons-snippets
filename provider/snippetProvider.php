@@ -27,7 +27,7 @@
 		public function parse($ns, $name, $scope=[]) {
 			
 			if( isset($this->libs[$ns]) ) {
-				if( $file = $this->libs[$ns]->find($name.'.php') ) {
+				if( $file = $this->libs[$ns]->find($name.'.php') OR $file = $this->libs[$ns]->find($name.'.html')) {
 					$content = $file->get_contents();
 					return $this->parseSnippetContent($content, $scope);
 				}
@@ -37,7 +37,7 @@
 		
 		private function parseSnippetContent($content, $scope) {
 			
-			$pattern = '/\{\{(?!%)\s*([^\s]*)\s*(?<!%)\}\}/i';
+			$pattern = '/\{\{(?!%)\s*([a-zA-z.]*)\s*(?<!%)\}\}/i';
 			
 			preg_match_all($pattern, $content, $matches, PREG_PATTERN_ORDER);
 			
