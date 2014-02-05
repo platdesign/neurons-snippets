@@ -21,3 +21,6 @@ Parses a snippet-file with `$name`.php/.html of the `$ns`-lib.
 	The directory test-snippets/html has a file named: blog-article.php. To parse it with data in our `$scope` (can be an `object` or `array`) type:
 		
 		echo $snippetProvider->parse('testlib', 'blog-article', $scope);
+
+
+![](http://www.bedit.de/test.svg)
