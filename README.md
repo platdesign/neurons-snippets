@@ -23,4 +23,4 @@ Parses a snippet-file with `$name`.php/.html of the `$ns`-lib.
 		echo $snippetProvider->parse('testlib', 'blog-article', $scope);
 
 
-![](http://www.bedit.de/test.svg)
+![](http://www.bedit.de/test.svg?qwe=123)
