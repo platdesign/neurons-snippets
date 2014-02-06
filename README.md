@@ -25,4 +25,4 @@ Parses a snippet-file with `$name`.php/.html of the `$ns`-lib.
 
 
 #Contact#
-[![](http://vizcard.bedit.de/platdesign/svg?round&shadow)](http://vizcard.bedit.de/platdesign)
+[![](http://vizcard.bedit.de/platdesign/svg?round&shadow&new)](http://vizcard.bedit.de/platdesign)
