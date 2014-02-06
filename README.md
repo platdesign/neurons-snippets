@@ -23,5 +23,6 @@ Parses a snippet-file with `$name`.php/.html of the `$ns`-lib.
 		echo $snippetProvider->parse('testlib', 'blog-article', $scope);
 
 
+
 #Contact#
 [![](http://vizcard.bedit.de/platdesign/svg?round&shadow)](http://vizcard.bedit.de/platdesign)
